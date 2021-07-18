@@ -255,9 +255,9 @@ article img {
     position: relative;
     width: 90%;
     height: 90%;
-    max-width: 200px;
-    max-height: 200px;
     margin: auto;
+    border-radius: 10px;
+    min-height: 220px;
     /* margin-left: auto;
     margin-right: auto; */
 }
@@ -272,14 +272,11 @@ aside {
     text-align: center;
     padding: 15px;
     float: right;
-    /* position: absolute; */
-    /* right: 0; */
-    /* height: 100%; */
+    
     min-height: 100%;
     display: flex;
     flex-direction: column;
     width: 30%;
-    /* height: 100%; */
     background-color: rgba(255, 255, 255, 0.933);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     /* justify-content: center; */
@@ -325,10 +322,18 @@ aside p {
 }
 
 @media screen and (max-width: 900px) {
+    .main-content {
+        flex-direction: column;
+    }
+    
     #content,
     aside {
         width: 100%;
         padding: 0;
+    }
+
+    aside {
+        margin-top: 8px;
     }
  }
 
