@@ -208,7 +208,7 @@ main {
 
 #content {
     text-align: center;
-    padding: 15px 15px 15px 5px;
+    padding: 15px 15px 0px 5px;
     float: left;
     display: flex;
     flex-direction: column;
@@ -312,11 +312,21 @@ aside p {
     height: fit-content;
 }
 
-#aside-bottom {
+#aside-middle {
     padding: 5px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10%;
+    color: white;
+    background-color: rgb(20, 80, 42);
+}
+
+#aside-bottom {
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     color: white;
     background-color: rgb(20, 80, 42);
 }
@@ -329,11 +339,25 @@ aside p {
     #content,
     aside {
         width: 100%;
-        padding: 0;
+    }
+
+    #content {
+        padding: 15px 0px 0px 0px;
+    }
+
+    #content article {
+        padding: 15px;
     }
 
     aside {
         margin-top: 8px;
+        padding: 10px;
+    }
+
+    #aside-bottom {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
  }
 
