@@ -8,11 +8,6 @@ body, input, button {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* header {
-    position: sticky;
-    top: 0;
-} */
-
 .first-header {
     background-color: rgb(20, 80, 42);
     overflow: auto;
@@ -30,13 +25,9 @@ body, input, button {
 #login-btn {
     padding: 3px;
     margin: 15px 5% 5px 0px;
-    /* display: table-cell;
-    vertical-align: middle; */
     text-align: center;
     font-weight: bold;
     color: white;
-    /* border: 2px solid white; */
-    /* border-radius: 5px; */
     float: right;
 }
 
@@ -88,15 +79,12 @@ main {
 
 .slider {
     height: 500px;
-    /* max-width: 1000px; */
-    /* background-color: aquamarine; */
     text-align: center;
     position: relative;
     margin: auto;
 }
 
 .slides {
-    /* display: none; */
     height: 500px;
     position: relative;
 }
@@ -215,7 +203,6 @@ main {
     min-height: 700px;
     height: 100%;
     width: 70%;
-    /* background-color: #00c7ed; */
     background-color: white;
 }
 
@@ -235,20 +222,12 @@ main {
     margin-bottom: auto;
 }
 
-/* .desc-article p {
-    padding-top: 25%;
-} */
-
 .img-article {
     width: 30%;
     margin-top: auto;
     margin-bottom: auto;
     display: block;
 }
-
-/* #content article img{
-    
-} */
 
 article img {
     object-fit: cover;
@@ -258,8 +237,6 @@ article img {
     margin: auto;
     border-radius: 10px;
     min-height: 220px;
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 .img-article a {
@@ -268,18 +245,15 @@ article img {
 }
 
 aside {
-    /* align-self: stretch; */
     text-align: center;
     padding: 15px;
-    float: right;
-    
+    float: right;   
     min-height: 100%;
     display: flex;
     flex-direction: column;
     width: 30%;
     background-color: rgba(255, 255, 255, 0.933);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    /* justify-content: center; */
 }
 
 #aside-top {
@@ -290,10 +264,6 @@ aside {
     color: white;
     background-color: rgb(20, 80, 42);
 }
-
-/* .img-aside { */
-    /* height: 80%; */
-/* } */
 
 aside img {
     object-fit: cover;

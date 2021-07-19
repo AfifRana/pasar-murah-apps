@@ -1,6 +1,5 @@
 var slideIndex = 0;
 var timeoutHandle = null;
-// showSlides(slideIndex);
 showSlidesAuto(slideIndex);
 
 function plusSlides(n) {
